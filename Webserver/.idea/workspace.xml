@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Webserver:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4294c02f-6fee-4b3e-b2f2-1ffe5538dcf2" name="Default Changelist" comment="" />
+    <list default="true" id="4294c02f-6fee-4b3e-b2f2-1ffe5538dcf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Webserver_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Webserver_jar/Webserver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Gui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/InvalidDirectoryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit_lab1/junit_lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebServetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebServetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebServetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebServetTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,8 +56,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1jO765kDYB60UTeSrTXWTXf1GHR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daniel\IdeaProjects\Webserver\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +84,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebServetTest">
+  <component name="RunManager" selected="Application.Gui">
+    <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Gui" />
+      <module name="Webserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebServer" />
+      <module name="Webserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebServetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Webserver" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,41 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebServetTest.checkReadFromRequestSocketClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebServetTest.checkReadFromRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Webserver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebServetTest" />
-      <option name="METHOD_NAME" value="checkReadFromRequestSocketClosed" />
+      <option name="METHOD_NAME" value="checkReadFromRequest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebServetTest.checkResponseException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebServetTest.getFileFromPathMaintenance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Webserver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WebServetTest" />
-      <option name="METHOD_NAME" value="checkResponseException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServetTest.checkResponseMaintenanceState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Webserver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServetTest" />
-      <option name="METHOD_NAME" value="checkResponseMaintenanceState" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebServetTest.checkResponseRunningState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Webserver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebServetTest" />
-      <option name="METHOD_NAME" value="checkResponseRunningState" />
+      <option name="METHOD_NAME" value="getFileFromPathMaintenance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Gui" />
+        <item itemvalue="JUnit.WebServetTest.getFileFromPathMaintenance" />
+        <item itemvalue="JUnit.WebServetTest.checkReadFromRequest" />
         <item itemvalue="JUnit.WebServetTest" />
-        <item itemvalue="JUnit.WebServetTest.checkResponseMaintenanceState" />
-        <item itemvalue="JUnit.WebServetTest.checkResponseRunningState" />
-        <item itemvalue="JUnit.WebServetTest.checkResponseException" />
-        <item itemvalue="JUnit.WebServetTest.checkReadFromRequestSocketClosed" />
+        <item itemvalue="Application.WebServer" />
       </list>
     </recent_temporary>
   </component>
@@ -114,30 +151,47 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeMaintenance.ic" NAME="WebServetTest.checkStatusCodeMaintenance Coverage Results" MODIFIED="1604680375940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeJpg.ic" NAME="WebServetTest.checkContentTypeJpg Coverage Results" MODIFIED="1604664095495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkReadFromRequestSocketClosed.ic" NAME="WebServetTest.checkReadFromRequestSocketClosed Coverage Results" MODIFIED="1604672169142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getMaintenanceCorrectPath.ic" NAME="WebServetTest.getMaintenanceCorrectPath Coverage Results" MODIFIED="1604686203524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseRunningState.ic" NAME="WebServetTest.checkResponseRunningState Coverage Results" MODIFIED="1604696372358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathRunningOk.ic" NAME="WebServetTest.getFileFromPathRunningOk Coverage Results" MODIFIED="1604687227560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeHtml.ic" NAME="WebServetTest.checkContentTypeHtml Coverage Results" MODIFIED="1604658553227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeJs.ic" NAME="WebServetTest.checkContentTypeJs Coverage Results" MODIFIED="1604664313080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseMaintenanceState.ic" NAME="WebServetTest.checkResponseMaintenanceState Coverage Results" MODIFIED="1604696435747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathRunningNotFound.ic" NAME="WebServetTest.getFileFromPathRunningNotFound Coverage Results" MODIFIED="1604687478114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest.ic" NAME="WebServetTest Coverage Results" MODIFIED="1604696541652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeStopped.ic" NAME="WebServetTest.checkStatusCodeStopped Coverage Results" MODIFIED="1604680384650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getEmptyFileFromRequest.ic" NAME="WebServetTest.getEmptyFileFromRequest Coverage Results" MODIFIED="1604686712976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathMaintenance.ic" NAME="WebServetTest.getFileFromPathMaintenance Coverage Results" MODIFIED="1604694371710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseStoppedState.ic" NAME="WebServetTest.checkResponseStoppedState Coverage Results" MODIFIED="1604693247568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromRequest.ic" NAME="WebServetTest.getFileFromRequest Coverage Results" MODIFIED="1604686659559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkReadFromRequestSocketClosed.ic" NAME="WebServetTest.checkReadFromRequestSocketClosed Coverage Results" MODIFIED="1607945354100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathRunningOk.ic" NAME="WebServetTest.getFileFromPathRunningOk Coverage Results" MODIFIED="1607946151472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathMaintenance2.ic" NAME="WebServetTest.getFileFromPathMaintenance2 Coverage Results" MODIFIED="1607950619160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeHtml.ic" NAME="WebServetTest.checkContentTypeHtml Coverage Results" MODIFIED="1607945087137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseMaintenanceState.ic" NAME="WebServetTest.checkResponseMaintenanceState Coverage Results" MODIFIED="1607946712399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest.ic" NAME="WebServetTest Coverage Results" MODIFIED="1608290906775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getEmptyFileFromRequest.ic" NAME="WebServetTest.getEmptyFileFromRequest Coverage Results" MODIFIED="1607945590610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeJpeg.ic" NAME="WebServetTest.checkContentTypeJpeg Coverage Results" MODIFIED="1607945158946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseException.ic" NAME="WebServetTest.checkResponseException Coverage Results" MODIFIED="1604696172274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromRequest.ic" NAME="WebServetTest.getFileFromRequest Coverage Results" MODIFIED="1607945470788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeRunningOk.ic" NAME="WebServetTest.checkStatusCodeRunningOk Coverage Results" MODIFIED="1607945418882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkReadFromRequest.ic" NAME="WebServetTest.checkReadFromRequest Coverage Results" MODIFIED="1608291017274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeMaintenance.ic" NAME="WebServetTest.checkStatusCodeMaintenance Coverage Results" MODIFIED="1607945443453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getMaintenanceCorrectPath.ic" NAME="WebServetTest.getMaintenanceCorrectPath Coverage Results" MODIFIED="1607945461548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseRunningState.ic" NAME="WebServetTest.checkResponseRunningState Coverage Results" MODIFIED="1607946581951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeJs.ic" NAME="WebServetTest.checkContentTypeJs Coverage Results" MODIFIED="1607945177024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathRunningNotFound.ic" NAME="WebServetTest.getFileFromPathRunningNotFound Coverage Results" MODIFIED="1607946122701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeStopped.ic" NAME="WebServetTest.checkStatusCodeStopped Coverage Results" MODIFIED="1607945435862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathMaintenance.ic" NAME="WebServetTest.getFileFromPathMaintenance Coverage Results" MODIFIED="1608291042129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkResponseStoppedState.ic" NAME="WebServetTest.checkResponseStoppedState Coverage Results" MODIFIED="1607946738688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getFileFromPathStopped.ic" NAME="WebServetTest.getFileFromPathStopped Coverage Results" MODIFIED="1604687687643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Webserver$WebServer.ic" NAME="WebServer Coverage Results" MODIFIED="1604682806026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeRunningNotFound.ic" NAME="WebServetTest.checkStatusCodeRunningNotFound Coverage Results" MODIFIED="1604679902692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypePng.ic" NAME="WebServetTest.checkContentTypePng Coverage Results" MODIFIED="1604663959893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeRunningOk.ic" NAME="WebServetTest.checkStatusCodeRunningOk Coverage Results" MODIFIED="1604694323615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkReadFromRequest.ic" NAME="WebServetTest.checkReadFromRequest Coverage Results" MODIFIED="1604672854052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getCorrectPath.ic" NAME="WebServetTest.getCorrectPath Coverage Results" MODIFIED="1604686114278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkStatusCodeRunningNotFound.ic" NAME="WebServetTest.checkStatusCodeRunningNotFound Coverage Results" MODIFIED="1607945425356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypePng.ic" NAME="WebServetTest.checkContentTypePng Coverage Results" MODIFIED="1607945167143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeOther.ic" NAME="WebServetTest.checkContentTypeOther Coverage Results" MODIFIED="1607945186251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_getCorrectPath.ic" NAME="WebServetTest.getCorrectPath Coverage Results" MODIFIED="1607945454475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Webserver$WebServetTest_checkContentTypeCss.ic" NAME="WebServetTest.checkContentTypeCss Coverage Results" MODIFIED="1607945145834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
