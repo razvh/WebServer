@@ -1,0 +1,54 @@
+# encoding: UTF-8
+
+from objectmaphelper import *
+
+vVS_web_server_stopped_JFrame = {"caption": "VVS web server - [stopped]", "type": "javax.swing.JFrame", "visible": True}
+vVS_web_server_stopped_not_running_JLabel = {"caption": "not running", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JPanel = {"occurrence": 2, "type": "javax.swing.JPanel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JPanel_2 = {"occurrence": 1, "type": "javax.swing.JPanel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_not_running_JLabel_2 = {"caption": "not running", "occurrence": 2, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Server_listening_on_port_JLabel = {"caption": "Server listening on port:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Server_listening_on_port_JTextField = {"leftWidget": vVS_web_server_stopped_Server_listening_on_port_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_not_running_JLabel_3 = {"caption": "not running", "occurrence": 1, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Start_JButton = {"caption": "Start", "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Web_root_directory_JLabel = {"caption": "Web root directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Web_root_directory_JTextField = {"leftWidget": vVS_web_server_stopped_Web_root_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Maintenance_directory_JLabel = {"caption": "Maintenance directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Maintenance_directory_JTextField = {"leftWidget": vVS_web_server_stopped_Maintenance_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JButton = {"caption": "...", "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JLabel = {"leftWidget": vVS_web_server_stopped_JButton, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JButton_2 = {"caption": "...", "occurrence": 1, "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_JLabel_2 = {"leftWidget": vVS_web_server_stopped_JButton_2, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_stopped_Switch_to_maintenance_mode_JCheckBox = {"caption": "Switch to maintenance mode", "type": "javax.swing.JCheckBox", "visible": True, "window": vVS_web_server_stopped_JFrame}
+vVS_web_server_running_JFrame = {"caption": "VVS web server - [running]", "type": "javax.swing.JFrame", "visible": True}
+vVS_web_server_running_running_JLabel = {"caption": "running..", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_127_0_0_1_JLabel = {"caption": "127.0.0.1", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_9091_JLabel = {"caption": 9091, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Stop_JButton = {"caption": "Stop", "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Switch_to_maintenance_mode_JCheckBox = {"caption": "Switch to maintenance mode", "type": "javax.swing.JCheckBox", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Server_listening_on_port_JLabel = {"caption": "Server listening on port:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Server_listening_on_port_JTextField = {"leftWidget": vVS_web_server_running_Server_listening_on_port_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Web_root_directory_JLabel = {"caption": "Web root directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Web_root_directory_JTextField = {"leftWidget": vVS_web_server_running_Web_root_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Maintenance_directory_JLabel = {"caption": "Maintenance directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_running_Maintenance_directory_JTextField = {"leftWidget": vVS_web_server_running_Maintenance_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_maintenance_JFrame = {"caption": "VVS web server - [maintenance]", "type": "javax.swing.JFrame", "visible": True}
+vVS_web_server_maintenance_maintenance_JLabel = {"caption": "maintenance", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_127_0_0_1_JLabel = {"caption": "127.0.0.1", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Server_listening_on_port_JLabel = {"caption": "Server listening on port:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Server_listening_on_port_JTextField = {"leftWidget": vVS_web_server_maintenance_Server_listening_on_port_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Web_root_directory_JLabel = {"caption": "Web root directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Web_root_directory_JTextField = {"leftWidget": vVS_web_server_maintenance_Web_root_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Maintenance_directory_JLabel = {"caption": "Maintenance directory:", "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Maintenance_directory_JTextField = {"leftWidget": vVS_web_server_maintenance_Maintenance_directory_JLabel, "type": "javax.swing.JTextField", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Stop_JButton = {"caption": "Stop", "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_Switch_to_maintenance_mode_JCheckBox = {"caption": "Switch to maintenance mode", "type": "javax.swing.JCheckBox", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+open_JDialog = {"caption": "Open", "type": "javax.swing.JDialog", "visible": True}
+open_Open_JButton = {"caption": "Open", "type": "javax.swing.JButton", "visible": True, "window": open_JDialog}
+open_Look_In_JLabel = {"caption": "Look In:", "type": "javax.swing.JLabel", "visible": True, "window": open_JDialog}
+open_Look_In_MetalComboBoxButton = {"caption": "", "leftWidget": open_Look_In_JLabel, "type": "javax.swing.plaf.metal.MetalComboBoxButton", "visible": True, "window": open_JDialog}
+open_ComboBox_list_JList = {"basetype": "javax.swing.JList", "name": "ComboBox.list", "visible": True, "window": open_JDialog}
+open_JList = {"basetype": "javax.swing.JList", "occurrence": 1, "visible": True, "window": open_JDialog}
+vVS_web_server_running_9090_JLabel = {"caption": 9090, "type": "javax.swing.JLabel", "visible": True, "window": vVS_web_server_running_JFrame}
+vVS_web_server_maintenance_JPanel = {"occurrence": 3, "type": "javax.swing.JPanel", "visible": True, "window": vVS_web_server_maintenance_JFrame}
+vVS_web_server_maintenance_JButton = {"caption": "...", "type": "javax.swing.JButton", "visible": True, "window": vVS_web_server_maintenance_JFrame}

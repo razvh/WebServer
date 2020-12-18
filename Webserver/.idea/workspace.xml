@@ -12,22 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4294c02f-6fee-4b3e-b2f2-1ffe5538dcf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Webserver_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Webserver_jar/Webserver.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Gui.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/InvalidDirectoryException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../junit_lab1/junit_lab1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebServetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebServetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebServetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebServetTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Gui">
+  <component name="RunManager" selected="Application.WebServer">
     <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Gui" />
       <module name="Webserver" />
@@ -130,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebServer" />
         <item itemvalue="Application.Gui" />
         <item itemvalue="JUnit.WebServetTest.getFileFromPathMaintenance" />
         <item itemvalue="JUnit.WebServetTest.checkReadFromRequest" />
         <item itemvalue="JUnit.WebServetTest" />
-        <item itemvalue="Application.WebServer" />
       </list>
     </recent_temporary>
   </component>

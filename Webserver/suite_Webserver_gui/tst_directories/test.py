@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+
+import names
+
+
+def main():
+    startApplication("Webserver.jar")
+    clickButton(waitForObject(names.vVS_web_server_stopped_JButton, 75613))
+    clickButton(waitForObject(names.open_Open_JButton))
+    test.vp("VP1")
+    clickButton(waitForObject(names.vVS_web_server_stopped_JButton))
+    mouseClick(waitForObject(names.open_Look_In_MetalComboBoxButton), 7, 14, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_ComboBox_list_JList, "Desktop"), 56, 7, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "Huple__Razvan"), 19, 13, 0, Button.Button1)
+    doubleClick(waitForObjectItem(names.open_JList, "Huple__Razvan"), 19, 13, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "Week__01"), 33, 16, 0, Button.Button1)
+    doubleClick(waitForObjectItem(names.open_JList, "Week__01"), 33, 16, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "client"), 33, 16, 0, Button.Button1)
+    doubleClick(waitForObjectItem(names.open_JList, "client"), 33, 16, 0, Button.Button1)
+    clickButton(waitForObject(names.open_Open_JButton))
+    test.vp("VP2")
+    clickButton(waitForObject(names.vVS_web_server_stopped_JButton_2))
+    mouseClick(waitForObjectItem(names.open_JList, "Squish Test Results"), 33, 9, 0, Button.Button1)
+    clickButton(waitForObject(names.open_Open_JButton))
+    test.vp("VP3")
+    clickButton(waitForObject(names.vVS_web_server_stopped_JButton_2))
+    mouseClick(waitForObject(names.open_Look_In_MetalComboBoxButton), 2, 15, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_ComboBox_list_JList, "Desktop"), 58, 9, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "Huple__Razvan"), 65, 16, 0, Button.Button1)
+    doubleClick(waitForObjectItem(names.open_JList, "Huple__Razvan"), 65, 16, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "Week__01"), 48, 15, 0, Button.Button1)
+    doubleClick(waitForObjectItem(names.open_JList, "Week__01"), 48, 15, 0, Button.Button1)
+    mouseClick(waitForObjectItem(names.open_JList, "maintenance"), 59, 9, 0, Button.Button1)
+    clickButton(waitForObject(names.open_Open_JButton))
+    test.vp("VP4")
